@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightpink;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 30px;
+    font-size: 20px;
+    padding: 8px;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"]{     
+    width : 100%;
+    padding : 3px;
+    border : 2px solid blue;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: lightpink;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+.submit{
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    border : none;
+    border-radius: 5px;
+    cursor: pointer;
+}
