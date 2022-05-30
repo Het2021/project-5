@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleasp.css">
     <title> Login Form </title>
+    <script>
+        var first=document.getelementbyid("txt").value;
+        localstorage.setitem("textvalue",first);
+        return false;
+    </script>
 </head>
 <body>
     <div class="container">
-    <form class="form" action="index-2.asp" method="post">
+    <form class="form" action="index-2.html" >
         <div class="heading">
             <img src="p.png" width="100%">
         </div>
         <p>Name* :<br>
-            <input type="text" required  name="name" placeholder="Enter your name" >
+            <input type="text" required  name="name" placeholder="Enter your name" id="txt" >
         </p>
         <p>Age* :<br>
             <input type="number" required name="age" placeholder="Enter your Age">
